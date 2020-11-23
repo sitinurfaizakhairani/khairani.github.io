@@ -1,0 +1,171 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+a{text-decoration: none;}
+.container {
+   min-height:100%;
+   min-width: 100%;
+}
+
+/* header*/
+.header {
+   height: 10px;
+   background: #835858;
+}
+
+/*navigasi*/
+.navigasi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.navigasi li {
+  float: right;
+}
+
+.navigasi li a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 30px 30px 10px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.navigasi li a:hover {
+  color: #835858;
+}
+
+/* BAGIAN KIRI */
+img.logo {
+  width: 160px;
+  height: 70px;
+  float: left;
+  padding-left: 30px;
+}
+.left {
+  font-family: sans-serif;
+  width: 620px;
+	padding: 10px;
+  margin: 15px;
+  float: left;
+}
+
+.left h1 {
+  font-size: 60px;
+  letter-spacing: 10px;
+  margin: auto;
+}
+
+.left h2 {
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.left h3 {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px 20px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  color: white;
+  background-color: #835858;
+}
+
+.facebook {
+  color: white;
+  background-color: #835858;
+  margin-right: 10px;
+}
+
+
+.left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.left li {
+  float:left;
+}
+
+.left li a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 30px 30px 10px 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.left li a:hover {
+  color: #835858;
+}
+
+/* BAGIAN KANAN */
+img.treat {
+  width: 750px;
+  height: 460px;
+  float: right;
+}
+.right{
+  width: 620px;
+	padding: 10px;
+  margin: 15px;
+	float: right;
+  animation: all 4s;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  padding: 0 0 1px 0;
+   background-color: #f2f2f2;
+   bottom:0;
+   min-width:100%;
+   height:35px;   /* tinggi dari footer */
+}
+
+.footer p {
+  bottom:0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+	.container {
+	width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .header,
+  .footer{
+  text-align: center;
+}
+
+@media (min-width: 720px) and (max-width: 992px) {
+  .container {
+  width: 100%;
+}
